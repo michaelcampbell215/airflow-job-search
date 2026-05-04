@@ -17,7 +17,7 @@ through BigQuery transformation to final export.
 
 ## Architecture
 
-
+```
 Resume (Markdown/PDF)
 │
 ▼
@@ -44,7 +44,7 @@ Resume (Markdown/PDF)
 ▼
 [6] Google Sheets Export
 → Writes top 100 ranked jobs to "AI Job Search" spreadsheet
-
+```
 ---
 
 ## Key Engineering Decisions
@@ -126,7 +126,7 @@ the full Docker stack.
 ---
 
 ## Project Structure
-
+```
 ├── dags/
 │   ├── job_search_ai_dag.py        # Production DAG (6-task pipeline)
 │   └── pipeline_functions.py       # Production helper functions
@@ -147,7 +147,7 @@ the full Docker stack.
 ├── Dockerfile
 ├── docker-compose.yaml
 └── requirements.txt
-
+```
 ---
 
 ## Setup
