@@ -1,0 +1,66 @@
+# Environment variables
+.env
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Docker
+postgres-db-volume/
+.dockerignore
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Data files (Ignore actual data, but can keep folder structure via .gitkeep)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.txt
+data/resumes/*
+!data/.gitkeep
+!data/resumes/.gitkeep
+
+# Airflow
+config/airflow.cfg
+airflow.db
+airflow-webserver.pid
+
+# GCP / Secrets
+gcp-key.json
+*.pem
+*.key
+*-key.json
+*_key.json
+service-account*.json
+credentials.json
+application_default_credentials.json
+
+# Legacy v1 prototype files (superseded by job_search_ai_dag.py + pipeline_functions.py)
+dags/dag_functions.py
+dags/jsearch_bigquery_dags.py
+
+# Jupyter Notebooks
+.ipynb_checkpoints/

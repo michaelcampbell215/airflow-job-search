@@ -1,0 +1,11 @@
+apache-airflow
+apache-airflow-providers-google
+google-cloud-bigquery
+python-dotenv
+requests
+pytest
+PyPDF2
+google-genai
+gspread
+google-auth
+pandas
